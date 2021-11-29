@@ -1,0 +1,8 @@
+{
+  "name": "ka.works",
+  "version": "1.0.0",
+  "scripts": {
+    "start:dev": "browser-sync start --server --files '*.css,*.html' --no-open"
+  },
+  "author": "V K"
+}
