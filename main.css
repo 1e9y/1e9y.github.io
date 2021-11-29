@@ -5,10 +5,18 @@
 }
 
 :root {
-  /* https://ethanschoonover.com/solarized/ */
-  --color-base03: #002b36;
-  --color-base3: #fdf6e3;
-  --color-blue: #268bd2;
+  /**
+    One Dark Syntax theme, an excellent color scheme for Atom
+    See https://github.com/atom/atom/tree/master/packages/one-dark-syntax
+  */
+  --color-white: hsl(220, 14%, 71%);
+  --color-black: hsl(220, 13%, 18%);
+  --color-cyan: hsl(187, 47%, 55%);
+  --color-blue: hsl(207, 82%, 66%);
+  --color-purple: hsl(286, 60%, 67%);
+  --color-green: hsl(95, 38%, 62%);
+  --color-red: hsl(355, 65%, 65%);
+  --color-orange: hsl( 29, 54%, 61%);
 }
 
 html {
@@ -22,8 +30,8 @@ body {
   line-height: 1.5;
   letter-spacing:  -.3px;
 
-  color: var(--color-base3);
-  background-color: var(--color-base03);
+  color: var(--color-white);
+  background-color: var(--color-black);
 }
 
 a {
@@ -33,6 +41,6 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: var(--color-base3);
+  color: var(--color-black);
   background-color: var(--color-blue);
 }
