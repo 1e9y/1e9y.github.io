@@ -19,6 +19,11 @@
   --color-orange: hsl( 29, 54%, 61%);
 }
 
+::selection {
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
 html {
   padding: 0;
 }
