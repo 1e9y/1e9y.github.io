@@ -4,5 +4,7 @@
   "scripts": {
     "start:dev": "browser-sync start --server --files '*.css,*.html' --no-open"
   },
-  "author": "V K"
+  "author": "V K",
+
+  "prettier": {}
 }

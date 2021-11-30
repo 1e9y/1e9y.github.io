@@ -16,7 +16,7 @@
   --color-purple: hsl(286, 60%, 67%);
   --color-green: hsl(95, 38%, 62%);
   --color-red: hsl(355, 65%, 65%);
-  --color-orange: hsl( 29, 54%, 61%);
+  --color-orange: hsl(29, 54%, 61%);
 }
 
 ::selection {
@@ -33,7 +33,7 @@ body {
   font-family: 'IBM VGA 9x16', monospace;
   font-size: 14px;
   line-height: 1.5;
-  letter-spacing:  -.3px;
+  letter-spacing: -0.3px;
 
   color: var(--color-white);
   background-color: var(--color-black);
