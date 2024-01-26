@@ -6,4 +6,6 @@ export default {
 
   // Do not minify HTML. Let the source be readable!
   compressHTML: false,
+
+  site: 'https://ka.works',
 };
