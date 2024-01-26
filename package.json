@@ -1,10 +1,19 @@
 {
   "name": "ka.works",
   "version": "1.0.0",
-  "scripts": {
-    "start:dev": "browser-sync start --server --files '*.css,*.html' --no-open"
-  },
   "author": "V K",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.4.1",
+    "astro": "^4.2.4",
+    "typescript": "^5.3.3"
+  },
 
   "prettier": {}
 }

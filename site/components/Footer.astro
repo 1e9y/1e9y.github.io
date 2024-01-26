@@ -1,0 +1,55 @@
+---
+
+---
+
+<div class="container">
+  <section>
+    <p>Made in Rotterdam</p>
+  </section>
+  <section>
+    <p>
+      <strong>Legal</strong>
+      <br />
+      Ka Works ∙ KvK 9029969
+    </p>
+  </section>
+  <section>
+    <p>
+      <strong>Social</strong>
+      <br />
+      <a href="https://www.linkedin.com/in/vtambourine/">LinkedIn</a> ∙
+      <a href="https://x.com/1e12y/">Twitter</a> ∙
+      <a href="http://t.me/soleowl/">Telegram</a>
+    </p>
+  </section>
+</div>
+
+<style>
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 3rem 6vw 1rem;
+    position: relative;
+    font-size: 78%;
+    max-width: 768px;
+  }
+
+  .container::before {
+    content: "==";
+    position: absolute;
+    top: 0;
+    left: 6vw;
+    font-family: "Terminal Grotesque", sans-serif;
+    font-size: 28px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  section p {
+    margin: 0 0 1em;
+  }
+</style>
